@@ -1,5 +1,5 @@
 # SearchEngineJokes
-Vertical Search Engine of Jokes using Python, PyTerrier, and Flask. Search Engine uses BM25, RM3 query expansion, as well as Learning to Rank approaches.
+Vertical Search Engine of Jokes using Python, PyTerrier, HTML, and Flask. Search Engine uses BM25, RM3 query expansion, as well as Learning to Rank approaches.
 
 This project uses jokes from a public Github dataset repository: https://github.com/taivop/joke-dataset
 
