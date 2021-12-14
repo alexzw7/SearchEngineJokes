@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Results</title>
+</head>
+<body style="background-color: lightgray; padding: 10px;">
+    <div style="text-align: left;">
+        <a href="/">
+            <img src="{{url_for('static', filename='funny.png')}}" style="width: 50px;">
+        </a>
+    </div>
+    <div>
+        <h1 style="text-align: center; font-size: 40px;">Search Results for: {{ query }}</h1>
+        {% for result in results %}
+            <div style="text-align: center; padding: 25px; border: 1px solid black;">
+                <p>{{ result }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
